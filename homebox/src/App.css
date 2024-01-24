@@ -8,4 +8,35 @@
     width:100vw;
     height:100vh;
     background-color: bisque;
+    display: flex;
+}
+
+.left-part{
+    min-width:16%;
+    height:100%;
+    background-color:cadetblue;
+}
+
+.header-section{
+    width: 100%;
+    height:13%;
+    background-color: white;
+}
+
+.right-part{
+ width:100%;
+ height:100%;
+ display: flex;
+ flex-direction: column;
+}
+
+.mainpage-section{
+    width:100%;
+    height:77%;
+    background-color:darkgrey;
+}
+
+.footer-section{
+    width:100%;
+    height:10%;
 }
