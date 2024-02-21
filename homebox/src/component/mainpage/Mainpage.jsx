@@ -1,7 +1,10 @@
 import "./mainpage.css";
 
 const Mainpage = () => {
-  return <div>Mainpage</div>;
+  return <div>
+    <div className="computer">computer</div>
+  </div>;
+ 
 };
 
 export default Mainpage;
